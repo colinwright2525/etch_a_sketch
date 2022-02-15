@@ -1,0 +1,57 @@
+html {
+    background-color: lightgreen;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+  
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#myButton {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.myGrid {
+    height: 450px;
+    width: 450px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   border: 8px solid black;
+}
+
+.myRow {
+    display: flex;
+    height: 50px;
+    flex-grow: 1;
+   
+  
+    justify-content: center;
+  
+}
+
+.myBox,.myBoxAlt {
+    width: 100%;
+    height: 100%;
+}
+
+.myBox {
+    background-color: blue;
+}
+
+.myBoxAlt {
+    background-color: orange;
+}
